@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.android.iob",
+    "sha256_cert_fingerprints":
+    ["C5:E4:AC:46:6E:95:C3:50:61:53:80:90:6D:DF:2C:20:56:87:CB:4D:32:32:39:56:9B:A4:34:E6:BF:7D:C7:FB"]
+  }
+}]
