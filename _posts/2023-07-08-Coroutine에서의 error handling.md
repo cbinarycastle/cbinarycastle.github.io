@@ -12,11 +12,12 @@ tags:
 안드로이드에서는 어느 곳에서도 catch되지 않은 uncaught exception이 발생하면 기본적으로 앱이 강제 종료되는 crash가 발생한다.  
 유저 입장에서는 열심히 정보를 입력하고 마지막 단계까지 왔는데, 갑자기 앱이 꺼지고 입력했던 정보들마저 모두 날아가버리는 상황이 발생할 수 있는 것이다.  
 
-![비정상 종료](https://developer.android.com/static/topic/performance/images/crash-example-framed.png?hl=ko)  
+![비정상 종료](https://developer.android.com/static/topic/performance/images/crash-example-framed.png?hl=ko){: .align-center}
 *출처: https://developer.android.com/games/optimize/crash*
+{: style="text-align: center;"}
 
-이로 인해 유저는 불쾌함을 느끼며 해당 앱에 대한 신뢰를 잃게 된다. 이렇듯 crash는 유저 이탈의 주된 원인이 된다.  
-따라서 에러를 알맞게 처리하는 일은 상당히 중요하다.  
+이로 인해 유저는 불쾌함을 느끼며 해당 앱에 대한 신뢰를 잃게 된다.  
+이렇듯 crash는 유저 이탈의 주된 원인이 되므로, 에러를 알맞게 처리하는 일은 상당히 중요하다.  
 이 글에서는 안드로이드에서 coroutine을 사용할 때의 exception handling 방법에 대해 알아본다.  
 
 ## try-catch
