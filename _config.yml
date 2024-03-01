@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: binarycastle
+title: binarycastle의 안드로이드 개발기
 description: >- # this means to ignore newlines until "baseurl:"
   binarycastle의 안드로이드 개발 블로그
 github_username: cbinarycastle
@@ -55,14 +55,11 @@ author:
   name: "binarycastle"
   bio: "Android development engineer."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://cbinarycastle.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/cbinarycastle"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fab fa-fw fa-linkedin-square"
       url: "https://www.linkedin.com/in/sungbin-cho-10396725b"
 
 footer:
